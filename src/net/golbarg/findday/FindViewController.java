@@ -20,6 +20,9 @@ public class FindViewController {
 	
 	@FXML 
 	private void initialize() {
+		txtDay.textProperty().addListener(new OnlyNumberChangeListener(txtDay));
+		txtMonth.textProperty().addListener(new OnlyNumberChangeListener(txtMonth));
+		txtyear.textProperty().addListener(new OnlyNumberChangeListener(txtyear));
 		
 	}
 }
