@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="300.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.golbarg.findday.FindViewController">
+<BorderPane prefHeight="300.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.golbarg.findday.FindViewController">
    <top>
       <VBox prefHeight="71.0" prefWidth="389.0" BorderPane.alignment="CENTER">
          <children>
